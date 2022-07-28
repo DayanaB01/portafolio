@@ -1,21 +1,60 @@
 @import "@/assets/a_settings/_color-palette.scss";
 @import "@/assets/b_elements/_color-html.scss";
 
+$measure: 500px;
+
 .greeting{
     border:10px $background-one solid;
+    background: $background-one;
+    height: 200px;
 }
 .language{
     border: 10px $background-one solid;
+    background: $background-one;
+    height: 200px;
 }
 .about{
     border: 10px $background-two solid;
+    display: flex;
+    flex-wrap: wrap;
+    background: $background-two;
+    height: $measure;
+    place-items: center;
+}
+.description{
+    flex: 0 1;
+    flex: 1 1;
+    background: $background-two;
 }
 .project{
     border: 10px $background-one solid;
+    background: $background-one;
+    height: $measure;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    background: $background-one;
+}
+.cards .card{
+    flex: 0 1 390px;
+    margin: 20px;
+    cursor: pointer;
 }
 .studies{
     border: 10px $background-two solid;
+    background: $background-two;
+    display: grid;
+    place-items: center;
+    height: $measure;
+}
+.text{
+    width: 700px;
 }
 .testimonial{
     border: 10px $background-one solid;
+    background: $background-one;
+    display: grid;
+    place-items: center;
+    height: $measure;
 }

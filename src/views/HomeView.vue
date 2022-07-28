@@ -1,25 +1,80 @@
 <template>
   <div class="main">
     <div class="greeting">
-     <h1>Aqui va el nav y saludo</h1>
+      <h1>Name and Greeting</h1>
     </div>
     <div class="language">
-      <h1>Cambio de lenguaje</h1>
+      <h1>language change</h1>
     </div>
     <section class="about">
-      <h1>About me</h1>
+      <div class="description">
+        <img src="@/assets/z_images/logo.png" alt="foto" />
+      </div>
+      <div class="description">
+        <h1>About me</h1>
+        <p>
+          I am Dayana and I am developer front end, I work whit language as JavaScript, Java and
+          python althogh my biggest personal projects where I practice and learn more all I know.
+          All my projects be in GitHub repositories <a href="">hola</a> hola
+        </p>
+      </div>
     </section>
     <section class="project">
       <h1>Projects</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="@/assets/z_images/logo.png" alt="proyecto1">
+          <p>PROJECT ONE</p>
+        </div>
+        <div class="card">
+          <img src="@/assets/z_images/logo.png" alt="proyecto2">
+          <p>PROJECT TWO</p>
+        </div>
+        <div class="card">
+          <img src="@/assets/z_images/logo.png" alt="proyecto3">
+          <p>PROJECT THREE</p>
+        </div>
+      </div>
     </section>
     <section class="studies">
-      <h1>Studies Prosper</h1>
+      <div class="text">
+        <h1>Studies Prosper</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+      </div>
     </section>
     <section class="testimonial">
-      <h1>Testimonios</h1>
+      <div class="text">
+        <h1>Testimonios</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+      </div>
     </section>
     <footer>
       <h2>contacto</h2>
+      <div>
+        <ul>
+          Lorem ipsum dolor sit amet
+        </ul>
+        <ul>
+          Lorem ipsum dolor sit amet
+        </ul>
+        <ul>
+          Lorem ipsum dolor sit amet
+        </ul>
+      </div>
     </footer>
   </div>
 </template>
@@ -32,4 +87,4 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" src="@/assets/c_object/_class.scss" ></style>
+<style lang="scss" src="@/assets/c_object/_class.scss"></style>
