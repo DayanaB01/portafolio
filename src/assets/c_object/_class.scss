@@ -1,0 +1,21 @@
+@import "@/assets/a_settings/_color-palette.scss";
+@import "@/assets/b_elements/_color-html.scss";
+
+.greeting{
+    border:10px $background-one solid;
+}
+.language{
+    border: 10px $background-one solid;
+}
+.about{
+    border: 10px $background-two solid;
+}
+.project{
+    border: 10px $background-one solid;
+}
+.studies{
+    border: 10px $background-two solid;
+}
+.testimonial{
+    border: 10px $background-one solid;
+}
