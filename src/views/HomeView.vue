@@ -15,7 +15,7 @@
         <p>
           I am Dayana and I am developer front end, I work whit language as JavaScript, Java and
           python althogh my biggest personal projects where I practice and learn more all I know.
-          All my projects be in GitHub repositories <a href="">hola</a> hola
+          All my projects be in GitHub <a href="">repositories</a>.
         </p>
       </div>
     </section>
