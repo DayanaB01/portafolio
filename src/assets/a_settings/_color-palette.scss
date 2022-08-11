@@ -1,4 +1,9 @@
 //import varibles
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$font: 'Roboto', sans-serif;
 
-$background-one: #4693FA;
-$background-two: #B4CCFA;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: $font;
+}

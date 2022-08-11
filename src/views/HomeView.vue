@@ -87,4 +87,4 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" src="@/assets/c_object/_class.scss"></style>
+<style lang="scss" src="@/assets/general.scss"></style>
