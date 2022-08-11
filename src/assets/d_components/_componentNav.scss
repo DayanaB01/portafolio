@@ -1,0 +1,13 @@
+//import scss of components
+nav{
+    display: flex;
+    height: 100px;
+    background-color: #4693FA;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+a{
+    margin-right: 30px;
+    margin-top: 15px;
+    text-decoration-line: none;
+}

@@ -1,29 +1,31 @@
-$measure: 500px;
+$measure: 600px;
 $background-one: #4693FA;
 $background-two: #B4CCFA;
 
 .greeting{
     border:10px $background-one solid;
     background: $background-one;
-    height: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .language{
     border: 10px $background-one solid;
     background: $background-one;
-    height: 200px;
+    height: 100px;
 }
 .about{
-    border: 10px $background-two solid;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     background: $background-two;
     height: $measure;
-    place-items: center;
 }
-.description{
-    flex: 0 1;
-    flex: 1 1;
-    background: $background-two;
+.about div{
+    width: 50%;
 }
 .project{
     border: 10px $background-one solid;
