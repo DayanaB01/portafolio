@@ -16,6 +16,7 @@ $background-two: #B4CCFA;
     border: 10px $background-one solid;
     background: $background-one;
     height: 100px;
+    cursor: pointer;
 }
 .about{
     display: flex;
@@ -35,16 +36,24 @@ $background-two: #B4CCFA;
     border: 10px $background-one solid;
     background: $background-one;
     height: $measure;
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .cards{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
     background: $background-one;
+    border: 2px black solid;
+    width: 100%;
+    margin-top: 6%;
 }
 .cards .card{
-    flex: 0 1 390px;
     margin: 20px;
     cursor: pointer;
+    border: 2px orange solid;
 }
 .studies{
     border: 10px $background-two solid;
