@@ -27,6 +27,10 @@ $background-two: #B4CCFA;
 .about div{
     width: 50%;
 }
+.about img{
+    border-radius: 100%;
+    border: 5px $background-one solid;
+}
 .project{
     border: 10px $background-one solid;
     background: $background-one;

@@ -1,34 +1,11 @@
 # portafolio
 
-## Project setup
-```
-npm install
-```
+<pre>
+This project contain: about me, skills, projects and contact.
+</pre>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<h3>:eye_speech_bubble: Live demo</h3>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Check live demonstration <a href="https://dayanab01.github.io/portafolio/"><strong>here</strong></a>
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img width="100%" src="@/assets/z-images/preview.png" alt="preview"/>

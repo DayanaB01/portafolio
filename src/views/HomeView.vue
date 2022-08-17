@@ -6,11 +6,11 @@
       <img src="@/assets/z_images/photo-perfil.png" alt="photo-perfil">
     </div>
     <div class="language">
-      <h5>language  or switch</h5>
+      <h5> |</h5>
       <h1>🔒  🔓</h1>
     </div>
     <section class="about">
-        <img src="@/assets/z_images/logo.png" alt="foto" />
+        <img src="@/assets/z_images/photo-about.png" alt="foto" />
         <div>
         <h1>About me</h1><br>
         <p>
@@ -84,7 +84,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import ComponentVue from '../components/a-atom/ComponentNav.vue';
+import ComponentVue from '@/components/a-atom/ComponentNav.vue';
 
 export default defineComponent({
   name: 'HomeView',
