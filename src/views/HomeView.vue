@@ -26,16 +26,18 @@
       <h1>Projects</h1>
       <div class="cards">
         <div class="card">
-          <img src="@/assets/z_images/logo.png" alt="proyecto1">
-          <p>PROJECT ONE</p>
+          <a href="https://dayanab01.github.io/Lava_Autos/index.html">
+          <img src="@/assets/z_images/forms.png" alt="preview-forms">
+          <h1>FORMS STORE</h1></a>
         </div>
         <div class="card">
-          <img src="@/assets/z_images/logo.png" alt="proyecto2">
-          <p>PROJECT TWO</p>
+          <a href="https://dayanab01.github.io/MiniMarket/index.html">
+          <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market">
+          <h1>STORE ECOMMERCE</h1></a>
         </div>
         <div class="card">
           <img src="@/assets/z_images/logo.png" alt="proyecto3">
-          <p>PROJECT THREE</p>
+          <h1>PROJECT THREE</h1>
         </div>
       </div>
     </section>
@@ -43,39 +45,42 @@
       <div class="text">
         <h1>Studies Prosper</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          I make part of prospercty where I learned more topics of the development web,
+          all that I learned theoretically I put it into practice, I learned on html, css,
+          javascript and I met a framwork, Vue, now I am studying it a lot of envelope as
+          to manage it and to familiarize more with the one. In non alone prospercity I
+          learned on development, I also learned more envelope the work in team, develop
+          more my communication abilities, and about the value of sharing.
         </p>
       </div>
     </section>
     <section class="testimonial">
       <div class="text">
-        <h1>Testimonios</h1>
+        <h1>Practices</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.
+          I have abilities in different programming languages, something of python, c++ and java,
+          I have basic knowledge of backend, although my strong and favorite is development
+          front-end, my projects are emphasized in the html part, css and Javascript, handling
+          some framworks like Vue, boostsrap, jquery, css pre-compiler like scss and some
+          projects have carried out them with content agents as joomla and wordpress. I want
+          to continue learning and to strengthen my learning abilities and at the same time
+          to help in a development team in a managerial project  and to share the abilities that
+          I have acquired until today.
         </p>
       </div>
     </section>
     <footer>
-      <h2>contacto</h2>
+      <h2>contact</h2>
       <div>
+        <p>If you want contact me...</p>
         <ul>
-          Lorem ipsum dolor sit amet
+          <a href="https://github.com/DayanaB01">GitHub</a>
         </ul>
         <ul>
-          Lorem ipsum dolor sit amet
+          dahianab01@gmail.com
         </ul>
         <ul>
-          Lorem ipsum dolor sit amet
+          Linkendin
         </ul>
       </div>
     </footer>
