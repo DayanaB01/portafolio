@@ -1,5 +1,7 @@
 <template>
-    <p>Formulario</p>
+    <form action="">
+        nombre-correo-asunto
+    </form>
 </template>
 
 <script lang="ts">
