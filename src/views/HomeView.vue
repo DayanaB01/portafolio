@@ -1,5 +1,4 @@
 <template>
-  <ComponentVue/>
   <div class="main">
     <div class="greeting">
       <h1>Hi! Welcome to my portafolio</h1>
@@ -14,16 +13,19 @@
         <div>
         <h1>About me</h1><br>
         <p>
-          I am Dayana Betancur and I am developer front end, I studie system tecnology and work with
-          language as JavaScript, Java and python althogh I practice and learn more all I know on
-          persola project. Also I belive that developer is perfect combination with music because
-          both is my pasion and funny.
-          All my projects be in GitHub <a href="">repositories</a>.
+         Hi! I am Dayana Betancur, developer front-end and technologist in
+         systems, lover of the technology but also of the music and the art. I work
+         every day to improve my abilities and professional aptitudes, I practice what
+         I have learned in personal projects, I like to read, to study, to help and to
+         know more of the development web and as through this, people are connected
+         and make big communication nets to improve the well-being of the society.
+         If you want to know more than my projects, I invite you to see my repositories
+        <a href="https://github.com/DayanaB01?tab=repositories">here.</a>
         </p>
         </div>
     </section>
     <section class="project">
-      <h1>Projects</h1>
+      <h1>Projects</h1><br>
       <div class="cards">
         <div class="card">
           <a href="https://dayanab01.github.io/Lava_Autos/index.html">
@@ -43,7 +45,7 @@
     </section>
     <section class="studies">
       <div class="text">
-        <h1>Studies Prosper</h1>
+        <h1>Studies Prosper</h1><br>
         <p>
           I make part of prospercty where I learned more topics of the development web,
           all that I learned theoretically I put it into practice, I learned on html, css,
@@ -56,7 +58,7 @@
     </section>
     <section class="testimonial">
       <div class="text">
-        <h1>Practices</h1>
+        <h1>Practices</h1><br>
         <p>
           I have abilities in different programming languages, something of python, c++ and java,
           I have basic knowledge of backend, although my strong and favorite is development
@@ -70,18 +72,14 @@
       </div>
     </section>
     <footer>
-      <h2>contact</h2>
-      <div>
-        <p>If you want contact me...</p>
+      <div><br>
         <ul>
           <a href="https://github.com/DayanaB01">GitHub</a>
-        </ul>
+        </ul><br>
         <ul>
-          dahianab01@gmail.com
-        </ul>
-        <ul>
-          Linkendin
-        </ul>
+          <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
+        </ul><br>
+        <p>Made in Colombia by Dayana Betancur</p>
       </div>
     </footer>
   </div>
@@ -89,13 +87,9 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import ComponentVue from '@/components/a-atom/ComponentNav.vue';
 
 export default defineComponent({
   name: 'HomeView',
-  components: {
-    ComponentVue,
-  },
 });
 </script>
 

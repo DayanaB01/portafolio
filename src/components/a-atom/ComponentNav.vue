@@ -1,6 +1,7 @@
 <template>
     <nav>
-        <a href="">Contact</a>
+      <router-link to="/">Home</router-link>
+      <router-link to="/ComponentForm">Contact</router-link>
     </nav>
 </template>
 
