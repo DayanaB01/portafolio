@@ -4,18 +4,34 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
 form{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column;
-    border: 2px gray solid;
-    
+    margin-top: 30px;
+    box-shadow: 9px 9px 9px 9px;
+}
+.forms form{
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
 form label{
     text-align: start;
 }
 form input{
     border-radius: 5%;
+    border-style: outset;
+}
+form button{
+    width: 30%;
+    margin-top: 20px;
+    border: 3px rgb(48, 96, 255) solid;
+    background-color: #4693FA;
+    border-radius: 10px;
+    cursor: pointer;
 }

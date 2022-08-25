@@ -9,7 +9,7 @@
       <h1>🔒  🔓</h1>
     </div>
     <section class="about">
-        <img src="@/assets/z_images/photo-about.png" alt="foto" />
+        <img src="@/assets/z_images/photo.png" alt="foto" />
         <div>
         <h1>About me</h1><br>
         <p>
@@ -25,7 +25,7 @@
         </div>
     </section>
     <section class="project">
-      <h1>Projects</h1><br>
+      <h1>Projects</h1>
       <div class="cards">
         <div class="card">
           <a href="https://dayanab01.github.io/Lava_Autos/index.html">
@@ -38,8 +38,9 @@
           <h1>STORE ECOMMERCE</h1></a>
         </div>
         <div class="card">
-          <img src="@/assets/z_images/logo.png" alt="proyecto3">
-          <h1>PROJECT THREE</h1>
+          <a href="https://dayanab01.github.io/Curriculum/formulario.html">
+          <img src="@/assets/z_images/form.png" alt="photo-form">
+          <h1>Curriculum form</h1></a>
         </div>
       </div>
     </section>
