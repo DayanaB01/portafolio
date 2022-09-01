@@ -1,11 +1,11 @@
 $measure: 600px;
-$background-one: #4693FA;
-$background-two: #B4CCFA;
+$background-one: #ffffff;
+$background-two: #2267fd;
 
 .greeting{
-    border:10px $background-one solid;
+    padding: 10% 10% 10% 10%;
     background: $background-one;
-    height: 400px;
+    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,10 +13,11 @@ $background-two: #B4CCFA;
 
 }
 .language{
-    border: 10px $background-one solid;
     background: $background-one;
-    height: 100px;
+    padding: 5% 5% 5% 5%;
+    height: max-content;
     cursor: pointer;
+    display: block;
 }
 .about{
     display: flex;
