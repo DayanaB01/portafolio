@@ -24,14 +24,17 @@ $background-two: #2267fd;
     align-items: center;
     justify-content: space-around;
     background: $background-two;
-    height: $measure;
+    height: max-content;
+    flex-wrap: wrap;
+    padding: 10% 10% 10% 10%;
 }
 .about div{
     width: 50%;
 }
 .about img{
-    border-radius: 100%;
-    border: 5px $background-one solid;
+    border: 4px #ffffff dashed;
+    margin-bottom: 5%;
+    height: fit-content;
 }
 .project{
     border: 10px $background-one solid;

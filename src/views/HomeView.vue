@@ -15,10 +15,10 @@
         <p>
          Hi! I am Dayana Betancur, developer front-end and technologist in
          systems, lover of the technology but also of the music and the art. I work
-         every day to improve my abilities and professional aptitudes, I practice what
+         every day to improve my abilities for manager JavaScript, HTML, CSS, boostsrap,
+         python, Vue.js, JQuery, php, Postgrees and my proffessional aptitudes. I practice what
          I have learned in personal projects, I like to read, to study, to help and to
-         know more of the development web and as through this, people are connected
-         and make big communication nets to improve the well-being of the society.
+         know more of the development web and as through this.
          If you want to know more than my projects, I invite you to see my repositories
         <a href="https://github.com/DayanaB01?tab=repositories">here.</a>
         </p>
