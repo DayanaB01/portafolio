@@ -106,24 +106,22 @@ $background-two: #2267fd;
     }
     .about{
         display: flex;
-        flex-wrap: wrap;
+        justify-content: space-around;
         background: $background-two;
         height: max-content;
         padding: 10% 10% 10% 10%;
-    }
-    
+    }    
     .about-me{
         width: 65%;
         align-self: center;
-        border: 2px black solid;
         margin: 0% 5% 0% 5%;
     }
     .about-img{
+        display: flex;
         width: 65%;
         align-items: center;
         justify-content: center;
-        margin: 0% 5% 0% 5%;   
-        border: 2px red solid;
+        margin: 0% 5% 0% 5%; 
     }
     .about-img img{
         width: 50%;
