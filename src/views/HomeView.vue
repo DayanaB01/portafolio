@@ -48,30 +48,49 @@
     </section>
     <section class="studies">
       <div class="text">
-        <h1>Studies Prosper</h1><br>
+        <h1>Abilities</h1><br>
         <p>
-          I make part of prospercty where I learned more topics of the development web,
-          all that I learned theoretically I put it into practice, I learned on html, css,
-          javascript and I met a framwork, Vue, now I am studying it a lot of envelope as
-          to manage it and to familiarize more with the one. In non alone prospercity I
-          learned on development, I also learned more envelope the work in team, develop
-          more my communication abilities, and about the value of sharing.
+          In my personal projects I have used some programming languages,
+          as much in front-end as in the backend, however, my strong one and
+          my more developed abilities are in the part front, some of the
+          projects are built in front end:
+        </p>
+        <ul>
+          <li>html</li>
+          <li>css</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+        </ul>
+        <p>
+          And I have used frameworks like: Vue.js, JQuery, Bootstrap.
+          In the part back of some of my projects have used:
+        </p>
+          <ul>
+            <li>php</li>
+            <li>SQL</li>
+            <li>Java</li>
+          </ul>
+        <p>
+          However, I am willing to fasten other languages, framworks,
+          and development tools to go being formed little by little in a full stack.
         </p>
       </div>
     </section>
-    <section class="testimonial">
+    <section class="practices">
       <div class="text">
-        <h1>Practices</h1><br>
+        <h1>Studies</h1><br>
         <p>
-          I have abilities in different programming languages, something of python, c++ and java,
-          I have basic knowledge of backend, although my strong and favorite is development
-          front-end, my projects are emphasized in the html part, css and Javascript, handling
-          some framworks like Vue, boostsrap, jquery, css pre-compiler like scss and some
-          projects have carried out them with content agents as joomla and wordpress. I want
-          to continue learning and to strengthen my learning abilities and at the same time
-          to help in a development team in a managerial project  and to share the abilities that
-          I have acquired until today.
+        Los estudios que he realizado han sido un gran apoyo en mi formación academica,
+        pero también me han formado en mi formación personal, aunque cada dia mi formación
+        autodidacta es la que refuerza mis conocimientos.
+        Tengo estudios realizados en:
         </p>
+        <ul>
+          <li>Tecnica en Sistemas (SENA)</li>
+          <li>Tecnologa en sistemas (Universidad de Caldas)</li>
+          <li>Programa desarrollo front-end (Prospercity)</li>
+          <li>Cursos de lenguajes y frameworks (PLATZI)</li>
+        </ul>
       </div>
     </section>
     <footer>
@@ -82,7 +101,7 @@
         <ul>
           <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
         </ul><br>
-        <p>Made in Colombia by Dayana Betancur</p>
+        <p>Made in Colombia width 🤍 <br> by Dayana Betancur</p>
       </div>
     </footer>
   </div>

@@ -46,8 +46,7 @@ $background-two: #2267fd;
     margin-bottom: 5%;
     color: black;
 }
-.cards{
-    border: 2px black solid;    
+.cards{   
     background: $background-one;
     padding: 15% 15% 15% 15%;
 }
@@ -65,6 +64,26 @@ $background-two: #2267fd;
 .cards .card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(14, 57, 250, 0.2);
+}
+.studies{
+    text-align: justify;
+    background: $background-two;
+    place-items: center;
+    height: min-content;
+    padding: 10%;
+}
+.studies h1{
+    text-align: center;
+}
+.practices{
+    background: $background-one;
+    padding: 10%;
+    text-align: justify;
+    place-items: center;
+    height: max-content;
+}
+.practices h1{
+    text-align: center;
 }
 
 @media(min-width: 800px){
@@ -150,7 +169,7 @@ $background-two: #2267fd;
     .text{
         width: 700px;
     }
-    .testimonial{
+    .practices{
         border: 10px $background-one solid;
         background: $background-one;
         display: grid;
