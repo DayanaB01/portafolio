@@ -9,8 +9,10 @@
       <h1>🔒  🔓</h1>
     </div>
     <section class="about">
-        <img src="@/assets/z_images/photo.png" alt="foto" />
-        <div>
+      <div class="about-img">
+           <img src="@/assets/z_images/photo.png" alt="foto" />
+      </div>
+      <div class="about-me">
         <h1>About me</h1><br>
         <p>
          Hi! I am Dayana Betancur, developer front-end and technologist in
@@ -22,20 +24,20 @@
          If you want to know more than my projects, I invite you to see my repositories
         <a href="https://github.com/DayanaB01?tab=repositories">here.</a>
         </p>
-        </div>
+      </div>
     </section>
     <section class="project">
-      <h1>Projects</h1>
+      <div class="tittle"> <h1>Projects</h1> </div>
       <div class="cards">
         <div class="card">
           <a href="https://dayanab01.github.io/Lava_Autos/index.html">
           <img src="@/assets/z_images/forms.png" alt="preview-forms">
-          <h1>FORMS STORE</h1></a>
+          <h1>Forms Car</h1></a>
         </div>
         <div class="card">
           <a href="https://dayanab01.github.io/MiniMarket/index.html">
           <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market">
-          <h1>STORE ECOMMERCE</h1></a>
+          <h1>Store eccomerce</h1></a>
         </div>
         <div class="card">
           <a href="https://dayanab01.github.io/Curriculum/formulario.html">
