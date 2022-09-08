@@ -30,19 +30,16 @@
       <div class="tittle"> <h1>Projects</h1> </div>
       <div class="cards">
         <div class="card">
-          <a href="https://dayanab01.github.io/Lava_Autos/index.html">
           <img src="@/assets/z_images/forms.png" alt="preview-forms">
-          <h1>Forms Car</h1></a>
+          <a href="https://dayanab01.github.io/Lava_Autos/index.html"><h1>Forms Car</h1></a>
         </div>
         <div class="card">
-          <a href="https://dayanab01.github.io/MiniMarket/index.html">
           <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market">
-          <h1>Store eccomerce</h1></a>
+          <a href="https://dayanab01.github.io/MiniMarket/index.html"><h1>Store eccomerce</h1></a>
         </div>
         <div class="card">
-          <a href="https://dayanab01.github.io/Curriculum/formulario.html">
           <img src="@/assets/z_images/form.png" alt="photo-form">
-          <h1>Curriculum form</h1></a>
+          <a href="https://dayanab01.github.io/Curriculum/formulario.html"><h1>Curriculum form</h1></a>
         </div>
       </div>
     </section>
