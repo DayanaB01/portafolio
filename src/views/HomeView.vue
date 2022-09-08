@@ -77,16 +77,16 @@
       <div class="text">
         <h1>Studies</h1><br>
         <p>
-        Los estudios que he realizado han sido un gran apoyo en mi formación academica,
-        pero también me han formado en mi formación personal, aunque cada dia mi formación
-        autodidacta es la que refuerza mis conocimientos.
-        Tengo estudios realizados en:
+       The studies that I have carried out have been a great support in my academic
+       formation, but they have also been formed in my personal formation, although
+       every day my self taught formation is the one that reinforces my knowledge.
+       I have studies carried out in:
         </p>
         <ul>
-          <li>Tecnica en Sistemas (SENA)</li>
-          <li>Tecnologa en sistemas (Universidad de Caldas)</li>
-          <li>Programa desarrollo front-end (Prospercity)</li>
-          <li>Cursos de lenguajes y frameworks (PLATZI)</li>
+          <li>Technique in Systems (SENA)</li>
+          <li>Technologist in systems University of Caldas (Universidad de Caldas)</li>
+          <li>It programs I develop front-end (Prospercity)</li>
+          <li> Courses of languages and frameworks (PLATZI)</li>
         </ul>
       </div>
     </section>

@@ -166,20 +166,18 @@ $background-two: #2267fd;
         border-radius: 10% 10% 0% 0%;
     }
     .studies{
-        border: 10px $background-two solid;
         background: $background-two;
         display: grid;
         place-items: center;
-        height: $measure;
+        height: max-content;
     }
     .text{
         width: 700px;
     }
     .practices{
-        border: 10px $background-one solid;
         background: $background-one;
         display: grid;
         place-items: center;
-        height: $measure;
+        height: max-content;
     }
 }
