@@ -5,5 +5,3 @@ import store from './store';
 
 
 createApp(App).use(store).use(router).mount('#app');
-
-eslint-disable-next-line to ignore the next line
