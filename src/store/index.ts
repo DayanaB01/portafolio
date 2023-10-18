@@ -12,3 +12,5 @@ export default createStore({
   modules: {
   },
 });
+// eslint-disable-next-line to ignore the next line.
+/* eslint-disable */
