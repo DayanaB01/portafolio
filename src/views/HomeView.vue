@@ -96,7 +96,7 @@
           <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
         </ul><br>
         <p>Made in Colombia width 🤍 <br> by Dayana Betancur</p>
-        <span>UPDATING...</span>
+        <span>UPDATING....</span>
       </div>
     </footer>
   </div>
