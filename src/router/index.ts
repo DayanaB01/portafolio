@@ -2,6 +2,8 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import ComponentForm from '../components/a-atom/ComponentForm.vue';
 
+eslint-disable-next-line to ignore the next line.
+
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -21,6 +23,3 @@ const router = createRouter({
 });
 
 export default router;
-
-// eslint-disable-next-line to ignore the next line.
-/* eslint-disable */
