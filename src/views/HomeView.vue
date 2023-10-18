@@ -1,16 +1,13 @@
 <template>
   <div class="main">
     <div class="greeting">
-      <h1>Hi! Welcome to my portafolio</h1>
-      <img src="@/assets/z_images/photo-perfil.png" alt="photo-perfil">
-    </div>
-    <div class="language">
-      <h5> |</h5>
-      <h1>🔒  🔓</h1>
+      <img src="../assets/z_images/fondoFirst.png" alt="fondoImg" class="imgfondo">
+      <h1>Hi!👋 Welcome to my portafolio</h1>
+      <img src="@/assets/z_images/photo-perfil.png" alt="photo-perfil" class="mini">
     </div>
     <section class="about">
       <div class="about-img">
-           <img src="@/assets/z_images/photo.png" alt="foto" />
+           <img src="../assets/z_images/perfil.png" alt="foto" />
       </div>
       <div class="about-me">
         <h1>About me</h1><br>
@@ -98,7 +95,8 @@
         <ul>
           <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
         </ul><br>
-        <p>Made in Colombia width 🤍 <br> by Dayana Betancur</p>
+        <p>Made in Colombia width 🤍: <br> by Dayana Betancur</p>
+        <span>UPDATING....</span>
       </div>
     </footer>
   </div>

@@ -21,3 +21,6 @@ const router = createRouter({
 });
 
 export default router;
+
+// eslint-disable-next-line to ignore the next line.
+/* eslint-disable */
