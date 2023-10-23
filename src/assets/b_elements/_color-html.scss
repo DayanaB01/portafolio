@@ -1,7 +1,16 @@
 //html
 footer{
+    background: #2267fd;
+    border: 1px solid #2267fd;
+}
+.box{
     text-align: center;
     height: max-content;
-    background: #2267fd;
-    padding-bottom: 2%;
+    margin: 2%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    a{
+        text-decoration-line: underline;
+    }
 }

@@ -52,7 +52,7 @@
         <img src="../assets/z_images/JavaScript-Logo.png" alt="logo-javascript" />
         <img src="../assets/z_images/vue-logo.png" alt="vvue-logo" />
       </div>
-      <div class="text">
+      <div class="textA">
         <h1>Abilities</h1>
         <br />
         <p>
@@ -102,8 +102,8 @@
     <section class="practices">
       <div class="text">
         <h1>Studies</h1>
-        <br />
-        <p>
+        <div class="certificated">
+          <p>
           The studies that I have carried out have been a great support in my academic formation,
           but they have also been formed in my personal formation, although every day my self taught
           formation is the one that reinforces my knowledge. I have studies carried out in:
@@ -114,23 +114,23 @@
           <li>It programs I develop front-end (Prospercity)</li>
           <li>Courses of languages and frameworks (PLATZI)</li>
         </ul>
+        </div>
       </div>
     </section>
     <footer>
-      <div>
-        <br />
+      <div class="box">
         <ul>
           <a href="https://github.com/DayanaB01">GitHub</a>
         </ul>
-        <br />
         <ul>
           <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
         </ul>
-        <br />
-        <p>
-          Made in Colombia width 🤍: <br />
-          by Dayana Betancur
-        </p>
+        <span>
+          Made in Colombia with 🤍
+        </span>
+        <span>
+          By Dayana Betancur
+        </span>
         <span>UPDATING....</span>
       </div>
     </footer>

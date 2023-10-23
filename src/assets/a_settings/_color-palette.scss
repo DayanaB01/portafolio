@@ -1,9 +1,10 @@
 //import varibles
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-$font: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+$font-family: 'Playpen Sans', cursive;
+
 
 *{
     padding: 0px;
     margin: 0px;
-    font-family: $font;
+    font-family: $font-family;
 }

@@ -119,11 +119,7 @@ $background-two: #2267fd;
     text-align: center;
 }
 .practices{
-    background: $background-one;
-    padding: 10%;
-    text-align: justify;
-    place-items: center;
-    height: max-content;
+  background: linear-gradient(#ffffff, #2267fd);;
 }
 .practices h1{
     text-align: center;
@@ -187,7 +183,6 @@ $background-two: #2267fd;
         p{
             width: 70%;
             font-size: larger;
-            font-family: Arial, Helvetica, sans-serif;
             word-spacing: 3.5px;
         }
 
@@ -283,9 +278,9 @@ $background-two: #2267fd;
         background: radial-gradient(#2267fd, #e4ecff);
         display: grid;
         grid-template-columns: 3;
-        height: 40rem;
+        height: 44rem;
     }
-    .text{
+    .textA{
         grid-column: 2/3;
         display: flex;
         flex-direction: column;
@@ -354,9 +349,36 @@ $background-two: #2267fd;
         }
     }
     .practices{
-        background: $background-one;
-        display: grid;
-        place-items: center;
-        height: max-content;
+        background: linear-gradient(to top, #ffffff,#89adfb) ;
+        height: 30rem;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 30rem;
+        background: transparent;
+
+        h1{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+        }
+        .certificated{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            width: 50%;
+            height: 50%;
+        }
+
+            li{
+                margin-top: 2%;
+                list-style-type: none;
+            }
+
     }
 }
