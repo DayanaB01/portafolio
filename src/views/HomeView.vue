@@ -2,7 +2,7 @@
   <div class="main">
     <div class="greeting">
       <img src="../assets/z_images/fondoFirst.png" alt="fondoImg" class="imgfondo" />
-      <h1>Hi!👋 Welcome to my portafolio</h1>
+      <h1>{{ t('messages.welcome') }}</h1>
       <img src="@/assets/z_images/photo-perfil.png" alt="photo-perfil" class="mini" />
     </div>
     <section class="about">
@@ -11,7 +11,8 @@
       </div>
       <div class="about-me">
         <h1>About me</h1>
-        <br />
+        <p>message: {{ t('messages.hello', { name: 'Amigo'}) }}</p>
+        <p>{{ n(1000, 'currency') }}</p>
         <p>
           Hi! I am Dayana Betancur, developer front-end and technologist in systems, lover of the
           technology but also of the music and the art. I work every day to improve my abilities for
@@ -54,7 +55,6 @@
       </div>
       <div class="textA">
         <h1>Abilities</h1>
-        <br />
         <p>
           In my personal projects I have used some programming languages, as much in front-end as in
           the backend, however, my strong one and my more developed abilities are in the part front,
@@ -139,9 +139,46 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useI18n } from 'vue-i18n';
+import enUS from '../locales/en.json';
+
+type MessageSchema = typeof enUS;
+
+type NumberSchema = {
+  currency: {
+    style: 'currency',
+    currencyDisplay: 'symbol'
+    currency: string
+  }
+};
 
 export default defineComponent({
   name: 'HomeView',
+  setup() {
+    /**
+     * You can specify the your definition schema with object literal at first type parameters
+     * About type parameter, see the http://vue-i18n.intlify.dev/api/composition.html#usei18n
+     */
+    const { t, n } = useI18n<{
+      message: MessageSchema,
+      number: NumberSchema
+    }, 'en-US'>({
+      inheritLocale: true,
+      messages: {
+        'en-US': enUS,
+      },
+      numberFormats: {
+        'en-US': {
+          currency: {
+            style: 'currency',
+            currencyDisplay: 'symbol',
+            currency: 'USD',
+          },
+        },
+      },
+    });
+    return { t, n };
+  },
 });
 </script>
 

@@ -3,18 +3,32 @@ nav{
     display: flex;
     height: 4.5rem;
     background-color: #2267fd;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
 }
-a{
-    margin-left: 30px;
-    margin-bottom: 15px;
-    text-decoration-line: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: large;
 
-    &.router-link-exact-active {
-        color: #7e00b4;
-      }
+.routers{
+    width: 70%;
+    a{
+        margin-left: 2%;
+        text-decoration-line: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: large;
+    
+        &.router-link-exact-active {
+            color: #7e00b4;
+          }
+    }
+}
+.botones{
+    width: 25%;
+    button{
+        background-color: #7e00b4;
+        color: #ffffff;
+        cursor: pointer;
+        width: 10%;
+        border-radius: 50%;
+        border: none;
+    }
 }

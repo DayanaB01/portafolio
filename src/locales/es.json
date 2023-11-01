@@ -1,0 +1,6 @@
+{
+    "messages": {
+      "hello": "Hola tu, {name}!",
+      "welcome": "Hola! 👋 Bienvenido a mi portafolio"
+    }
+}
