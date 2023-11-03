@@ -11,13 +11,15 @@
       </div>
       <div class="about-me">
         <h1>{{ t('messages.tituloA') }}</h1>
-        <p>{{ t('messages.perfil') }}
-          <a href="https://github.com/DayanaB01?tab=repositories">here.</a>
-        </p>
+        <p>{{ t('messages.perfil') }}</p>
       </div>
     </section>
     <section class="project">
-      <div class="tittle"><h1>{{ t('messages.tituloB') }}</h1></div>
+      <div class="tittle">
+        <h1>{{ t('messages.tituloB') }}</h1>
+        <p>{{ t('messages.descripcionLink') }}
+          <a href="https://github.com/DayanaB01?tab=repositories">{{ t('messages.linkProyectos') }}</a></p>
+      </div>
       <div class="cards">
         <div class="card">
           <a href="https://dayanab01.github.io/Lava_Autos/index.html">
@@ -46,12 +48,8 @@
         <img src="../assets/z_images/vue-logo.png" alt="vvue-logo" />
       </div>
       <div class="textA">
-        <h1>Abilities</h1>
-        <p>
-          In my personal projects I have used some programming languages, as much in front-end as in
-          the backend, however, my strong one and my more developed abilities are in the part front,
-          some of the projects are built in front end:
-        </p>
+        <h1>{{ t('messages.tituloC') }}</h1>
+        <p>{{ t('messages.descripcionH') }}</p>
         <ul>
           <li class="tool">
             html
@@ -65,14 +63,14 @@
           <li class="tool">Angular <span class="tooltip">Is a platform for building mobile and
             desktop web applications.</span></li>
         </ul>
-        <p>And I have used design:</p>
+        <p>{{ t('messages.descripcionH1') }}</p>
         <ul>
           <li class="tool">css <span class="tooltip">Cascading Style Sheets</span></li>
           <li class="tool">Boostsrap <span class="tooltip">Is an open-source CSS framework</span>
           </li>
           <li class="tool">Sass <span class="tooltip">Syntactically Awesome Stylesheets</span></li>
         </ul>
-        <p>In the part back of some of my projects have used:</p>
+        <p>{{ t('messages.descripcionH2') }}</p>
         <ul>
           <li class="tool">php <span class="tooltip"> Hypertext Preprocessor</span></li>
           <li class="tool">SQL <span class="tooltip"> Structured Query Language</span></li>
@@ -80,10 +78,7 @@
             una plataforma informática</span></li>
           <li class="tool">C++ <span class="tooltip">Programming Language</span></li>
         </ul>
-        <p>
-          However, I am willing to fasten other languages, framworks, and development tools to go
-          being formed little by little in a full stack.
-        </p>
+        <p>{{ t('messages.descripcionH3') }}</p>
       </div>
       <div class="secondImg">
         <img src="../assets/z_images/css-logo.png" alt="csslogo" />
@@ -93,18 +88,14 @@
     </section>
     <section class="practices">
       <div class="text">
-        <h1>Studies</h1>
+        <h1>{{ t('messages.tituloD') }}</h1>
         <div class="certificated">
-          <p>
-          The studies that I have carried out have been a great support in my academic formation,
-          but they have also been formed in my personal formation, although every day my self taught
-          formation is the one that reinforces my knowledge. I have studies carried out in:
-        </p>
+          <p>{{ t('messages.descripcionS') }}</p>
         <ul>
-          <li>Technique in Systems (SENA)</li>
-          <li>Technologist in systems University of Caldas (Universidad de Caldas)</li>
-          <li>It programs I develop front-end (Prospercity)</li>
-          <li>Courses of languages and frameworks (PLATZI)</li>
+          <li>{{ t('messages.certificado1') }}</li>
+          <li>{{ t('messages.certificado2') }}</li>
+          <li>{{ t('messages.certificado3') }}</li>
+          <li>{{ t('messages.certificado4') }}</li>
         </ul>
         </div>
       </div>
@@ -118,12 +109,12 @@
           <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
         </ul>
         <span>
-          Made in Colombia with 🤍
+          {{ t('messages.footer1') }}🤍
         </span>
         <span>
-          By Dayana Betancur
+          {{ t('messages.footer2') }}
         </span>
-        <span>UPDATING....</span>
+        <span>{{ t('messages.anio') }}</span>
       </div>
     </footer>
   </div>
@@ -147,10 +138,6 @@ type NumberSchema = {
 export default defineComponent({
   name: 'HomeView',
   setup() {
-    /**
-     * You can specify the your definition schema with object literal at first type parameters
-     * About type parameter, see the http://vue-i18n.intlify.dev/api/composition.html#usei18n
-     */
     const { t, n } = useI18n<{
       message: MessageSchema,
       number: NumberSchema

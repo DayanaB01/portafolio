@@ -229,7 +229,11 @@ $background-two: #2267fd;
         display: flex;
         align-self: center;
         justify-self: center;
+        flex-direction: column;
         font-weight: bold;
+        p{
+            margin-top: 1%;
+        }
     }
     .cards{
         grid-row: 2/5;
