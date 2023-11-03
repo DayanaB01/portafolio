@@ -1,7 +1,7 @@
 <template>
     <div class="forms">
     <h1>Welcome!</h1>
-    <p>I am very happy that you want comunicate with me!!</p>
+    <p>I am very happy that you want comunicate with me</p>
       <form action="https://formspree.io/f/xyyvzpvb" method="post">
         <span>Name:</span>
           <input type="text" name="name" class="form-control">
