@@ -10,22 +10,14 @@
         <img src="../assets/z_images/perfil.png" alt="foto" />
       </div>
       <div class="about-me">
-        <h1>About me</h1>
-        <p>message: {{ t('messages.hello', { name: 'Amigo'}) }}</p>
-        <p>{{ n(1000, 'currency') }}</p>
-        <p>
-          Hi! I am Dayana Betancur, developer front-end and technologist in systems, lover of the
-          technology but also of the music and the art. I work every day to improve my abilities for
-          manager JavaScript, HTML, CSS, boostsrap, python, Vue.js, JQuery, php, Postgrees and my
-          proffessional aptitudes. I practice what I have learned in personal projects, I like to
-          read, to study, to help and to know more of the development web and as through this. If
-          you want to know more than my projects, I invite you to see my repositories
+        <h1>{{ t('messages.tituloA') }}</h1>
+        <p>{{ t('messages.perfil') }}
           <a href="https://github.com/DayanaB01?tab=repositories">here.</a>
         </p>
       </div>
     </section>
     <section class="project">
-      <div class="tittle"><h1>My projects</h1></div>
+      <div class="tittle"><h1>{{ t('messages.tituloB') }}</h1></div>
       <div class="cards">
         <div class="card">
           <a href="https://dayanab01.github.io/Lava_Autos/index.html">

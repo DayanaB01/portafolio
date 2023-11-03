@@ -1,6 +1,9 @@
 {
-    "messages": {
-      "hello": "Hola tu, {name}!",
-      "welcome": "Hola! 👋 Bienvenido a mi portafolio"
-    }
+  "messages": {
+    "hello": "Hola tu, {name}!",
+    "welcome": "Hola! 👋 Bienvenido a mi portafolio",
+    "tituloA": "Acerca de mi...",
+    "perfil": "Hola!, mi nombre es Dayana Betancur, técnica y tecnóloga en sistemas informáticos, con experiencia en proyectos de desarrollo web y aplicativos elaborados con angular, react native, .net y sql, además he trabajado en proyectos propios utilizando vue.js, javascript, typescript, bootstrap, sass, entre otros. La programación es el ámbito profesional en el que más me involucro, sin embargo tengo conocimientos en áreas artisticas como la música, dibujo y deporte que me permiten tener un equilibrio y capacidad creativa en el desarrollo de proyectos de programación. Me apasiona crear, desarrollar, compartir, escuchar, para en un futuro no muy lejano beneficiar a través de la tecnólogia otras personas en el ámbito laboral, y  mejorar la calidad de vida.",
+    "tituloB": "Mis proyectos..."
+  }
 }

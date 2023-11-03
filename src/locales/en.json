@@ -1,6 +1,9 @@
 {
     "messages": {
       "hello": "Hello, {name}!",
-      "welcome": "Hello! 👋 Welcome to my portafolio"
+      "welcome": "Hello! 👋 Welcome to my portfolio",
+      "tituloA": "About me...",
+      "perfil": "Hello!, my name is Dayana Betancur, a technician and technologist in computer systems, with experience in web development projects and applications made with angular, react native, .net and sql, I have also worked on my own projects using vue.js, javascript, typescript, bootstrap, sass, among others. Programming is the professional field in which I am most involved, however I have knowledge in artistic areas such as music, drawing and sports that allow me to have a balance and creative capacity in the development of programming projects. I am passionate about creating, developing, sharing, listening, to in the not too distant future benefit other people in the workplace through technology, and improve the quality of life.",
+      "tituloB": "My projects..."
     }
 }
