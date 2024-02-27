@@ -22,14 +22,14 @@
       </div>
       <div class="cards">
         <div class="card">
-          <a href="https://dayanab01.github.io/Lava_Autos/index.html">
+          <a href="https://dayanab01.github.io/RecetasOn/">
             <img src="@/assets/z_images/forms.png" alt="preview-forms" />
           </a>
           <h1>Recetas On</h1>
         </div>
         <div class="card">
-          <a href="https://dayanab01.github.io/RecetasOn/">
-            <img src="@/assets/z_images/principal.png" alt="preview-mini-market" />
+          <a href="https://dayanab01.github.io/MiniMarket/index.html">
+            <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
           </a>
           <h1>Store eccomerce</h1>
         </div>
