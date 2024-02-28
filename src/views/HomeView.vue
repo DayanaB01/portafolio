@@ -23,7 +23,7 @@
       <div class="cards">
         <div class="card">
           <a href="https://dayanab01.github.io/RecetasOn/">
-            <img src="@/assets/z_images/forms.png" alt="preview-forms" />
+            <img src="@/assets/z_images/principal.png" alt="preview-forms" />
           </a>
           <h1>Recetas On</h1>
         </div>
