@@ -22,7 +22,13 @@
       </div>
       <div class="cards">
         <div class="card">
-          <a href="https://dayanab01.github.io/RecetasOn/">
+          <a href="https://github.com/DayanaB01/Lava_Autos/tree/main">
+            <img src="@/assets/z_images/forms.png" alt="photo-form" />
+          </a>
+          <h1>Lavanderia</h1>
+        </div>
+        <div class="card">
+          <a href="https://github.com/DayanaB01/RecetasOn">
             <img src="@/assets/z_images/principal.png" alt="preview-forms" />
           </a>
           <h1>Recetas On</h1>
@@ -32,12 +38,6 @@
             <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
           </a>
           <h1>Store eccomerce</h1>
-        </div>
-        <div class="card">
-          <a href="https://dayanab01.github.io/Curriculum/formulario.html">
-            <img src="@/assets/z_images/form.png" alt="photo-form" />
-          </a>
-          <h1>Curriculum form</h1>
         </div>
       </div>
     </section>
