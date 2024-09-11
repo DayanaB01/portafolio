@@ -26,18 +26,21 @@
             <img src="@/assets/z_images/forms.png" alt="photo-form" />
           </a>
           <h1>Lavanderia</h1>
+          <span>HTML-Javascript-php-Sql</span>
         </div>
         <div class="card">
           <a href="https://github.com/DayanaB01/RecetasOn">
             <img src="@/assets/z_images/principal.png" alt="preview-forms" />
           </a>
           <h1>Recetas On</h1>
+          <span>Angular-firebase-typescript</span>
         </div>
         <div class="card">
           <a href="https://dayanab01.github.io/MiniMarket/index.html">
             <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
           </a>
           <h1>Store eccomerce</h1>
+          <span>HTML-Bootstrap(Responsive)-css</span>
         </div>
       </div>
     </section>
