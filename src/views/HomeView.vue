@@ -3,7 +3,10 @@
     <div class="greeting">
       <img src="../assets/z_images/fondoFirst.png" alt="fondoImg" class="imgfondo" />
       <h1>{{ t('messages.welcome') }}</h1>
-      <img src="@/assets/z_images/photo-perfil.png" alt="photo-perfil" class="mini" />
+      <span>{{ t('messages.description') }}</span>
+      <div class="img_mini">
+        <img src="@/assets/z_images/photo_perfil.png" alt="photo-perfil" class="mini" />
+      </div>
     </div>
     <section class="about">
       <div class="about-img">
