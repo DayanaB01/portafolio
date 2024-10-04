@@ -17,6 +17,65 @@
         <p>{{ t('messages.perfil') }}</p>
       </div>
     </section>
+<!--COMIENZO DE SECCION-->
+    <section class="studies">
+      <div class="firstImg">
+        <h1>INTERFACES</h1>
+        <p>{{ t('messages.descripcionInter') }}</p>
+        <ul>
+          <li class="tool">FIGMA
+            <img src="../assets/z_images/figma.png" alt="logo-figma">
+          </li>
+        </ul>
+        <!-- -->
+      </div>
+      <div class="textA">
+        <h1>{{ t('messages.tituloC') }}</h1>
+        <p>{{ t('messages.descripcionH') }}</p>
+        <ul>
+          <li class="tool">
+            html
+            <img src="../assets/z_images/html-logo.png" alt="logo-html" />
+          </li>
+          <li class="tool">JavaScript
+            <img src="../assets/z_images/JavaScript-Logo.png" alt="logo-javascript" /></li>
+          <li class="tool">Vue
+            <img src="../assets/z_images/vue-logo.png" alt="vvue-logo" /></li>
+          <li class="tool">Angular
+            <img src="../assets/z_images/angular-logo.png" alt="angular-logo" /></li>
+        </ul>
+        <p>{{ t('messages.descripcionH1') }}</p>
+        <ul>
+          <li class="tool">css
+            <img src="../assets/z_images/css-logo.png" alt="csslogo" /></li>
+          <li class="tool">Boostsrap
+            <img src="../assets/z_images/bootstrap.png" alt="logo-bootstrap">
+          </li>
+          <li class="tool">Sass
+            <img src="../assets/z_images/sass.png" alt="logo-sass">
+          </li>
+        </ul>
+      </div>
+      <div class="secondImg">
+        <h1>BACKEND</h1>
+        <p>{{ t('messages.descripcionH2') }}</p>
+        <ul>
+          <li class="tool">.net
+            <img src="../assets/z_images/website.png" alt="logo-net">
+          </li>
+          <li class="tool">php
+            <img src="../assets/z_images/php.png" alt="logo-php">
+          </li>
+          <li class="tool">C++
+            <img src="../assets/z_images/c-.png" alt="logo.png">
+          </li>
+          <li class="tool">SQL
+            <img src="../assets/z_images/sql-logo.png" alt="sql-logo" /></li>
+        </ul>
+        <!--  -->
+      </div>
+    </section>
+    <!--FIN DE SECCION-->
     <section class="project">
       <div class="tittle">
         <h1>{{ t('messages.tituloB') }}</h1>
@@ -24,13 +83,25 @@
           <a href="https://github.com/DayanaB01?tab=repositories">{{ t('messages.linkProyectos') }}</a></p>
       </div>
       <div class="cards">
-        <div class="card">
+        <div class="card-container">
+          <div class="card1">
+            <figure class="card-figure">
+          <img src="@/assets/z_images/forms.png" alt="photo-form" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Lavanderia</h2>
+          <p class="card-text">Manejo codigo php, y base de datos sql</p>
+          <a href="#" class="card-link">Ver</a>
+        </div>
+          </div>
+        </div>
+        <!-- <div class="card">
           <a href="https://github.com/DayanaB01/Lava_Autos/tree/main">
             <img src="@/assets/z_images/forms.png" alt="photo-form" />
           </a>
           <h1>Lavanderia</h1>
           <span>HTML-Javascript-php-Sql</span>
-        </div>
+        </div> -->
         <div class="card">
           <a href="https://github.com/DayanaB01/RecetasOn">
             <img src="@/assets/z_images/principal.png" alt="preview-forms" />
@@ -47,51 +118,7 @@
         </div>
       </div>
     </section>
-    <section class="studies">
-      <div class="firstImg">
-        <img src="../assets/z_images/html-logo.png" alt="logo-html" />
-        <img src="../assets/z_images/JavaScript-Logo.png" alt="logo-javascript" />
-        <img src="../assets/z_images/vue-logo.png" alt="vvue-logo" />
-      </div>
-      <div class="textA">
-        <h1>{{ t('messages.tituloC') }}</h1>
-        <p>{{ t('messages.descripcionH') }}</p>
-        <ul>
-          <li class="tool">
-            html
-            <span class="tooltip">
-              HyperText Markup Language
-            </span>
-          </li>
-          <li class="tool">JavaScript <span class="tooltip">It's a scripting language</span></li>
-          <li class="tool">Vue <span class="tooltip">An approachable, performant and versatile
-             framework for building web user interfaces.</span></li>
-          <li class="tool">Angular <span class="tooltip">Is a platform for building mobile and
-            desktop web applications.</span></li>
-        </ul>
-        <p>{{ t('messages.descripcionH1') }}</p>
-        <ul>
-          <li class="tool">css <span class="tooltip">Cascading Style Sheets</span></li>
-          <li class="tool">Boostsrap <span class="tooltip">Is an open-source CSS framework</span>
-          </li>
-          <li class="tool">Sass <span class="tooltip">Syntactically Awesome Stylesheets</span></li>
-        </ul>
-        <p>{{ t('messages.descripcionH2') }}</p>
-        <ul>
-          <li class="tool">php <span class="tooltip"> Hypertext Preprocessor</span></li>
-          <li class="tool">SQL <span class="tooltip"> Structured Query Language</span></li>
-          <li class="tool">Java <span class="tooltip"> lenguaje de programación y
-            una plataforma informática</span></li>
-          <li class="tool">C++ <span class="tooltip">Programming Language</span></li>
-        </ul>
-        <p>{{ t('messages.descripcionH3') }}</p>
-      </div>
-      <div class="secondImg">
-        <img src="../assets/z_images/css-logo.png" alt="csslogo" />
-        <img src="../assets/z_images/angular-logo.png" alt="angular-logo" />
-        <img src="../assets/z_images/sql-logo.png" alt="sql-logo" />
-      </div>
-    </section>
+
     <section class="practices">
       <div class="text">
         <h1>{{ t('messages.tituloD') }}</h1>
