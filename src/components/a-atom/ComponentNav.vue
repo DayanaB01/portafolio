@@ -2,10 +2,14 @@
     <nav>
       <div class="routers">
         <router-link to="/">Home</router-link>
-        <router-link to="/ComponentForm">Contact</router-link>
+        <a href="#box">Contact</a>
+        <!-- <router-link to="/ComponentForm">Contact</router-link> -->
       </div>
       <div class="botones">
-        <button v-on:click="switchLocale()">{{ displayLocale }}</button>
+        <button v-on:click="switchLocale()">
+          <img src="../../assets/z_images/translate.png" alt="logo-translate">
+          {{ displayLocale }}
+        </button>
       </div>
     </nav>
 </template>

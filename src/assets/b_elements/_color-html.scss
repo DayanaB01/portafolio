@@ -7,10 +7,17 @@ footer{
     text-align: center;
     height: max-content;
     margin: 2%;
-    color: #ffffff;
     display: flex;
     flex-direction: column;
+    span{
+        color: #000000;
+        text-shadow: 3px 0px 0px #9932cc, 0px 3px 0px #2267fd, -3px 0px 0px #2267fd, 0px -4px 0px #9932cc;
+    }
     a{
+        color: #000000;
         text-decoration-line: underline;
+    }
+    ul li{
+        list-style: none;
     }
 }

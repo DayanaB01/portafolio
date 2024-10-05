@@ -90,32 +90,48 @@
         </figure>
         <div class="card-body">
           <h2 class="card-title">Lavanderia</h2>
-          <p class="card-text">Manejo codigo php, y base de datos sql</p>
-          <a href="#" class="card-link">Ver</a>
+          <p class="card-text">{{ t('messages.cardText1') }}</p>
+          <a href="https://github.com/DayanaB01/Lava_Autos/tree/main"
+          class="card-link">{{ t('messages.link') }}</a>
         </div>
           </div>
         </div>
-        <!-- <div class="card">
-          <a href="https://github.com/DayanaB01/Lava_Autos/tree/main">
-            <img src="@/assets/z_images/forms.png" alt="photo-form" />
-          </a>
-          <h1>Lavanderia</h1>
-          <span>HTML-Javascript-php-Sql</span>
-        </div> -->
-        <div class="card">
-          <a href="https://github.com/DayanaB01/RecetasOn">
-            <img src="@/assets/z_images/principal.png" alt="preview-forms" />
-          </a>
-          <h1>Recetas On</h1>
-          <span>Angular-firebase-typescript</span>
+        <div class="card-container">
+          <div class="card1">
+            <figure class="card-figure">
+          <img src="@/assets/z_images/Principal.png" alt="preview-forms"/>
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Recetas On</h2>
+          <p class="card-text">{{ t('messages.cardText2') }} </p>
+          <a href="https://github.com/DayanaB01/RecetasOn"
+          class="card-link">{{ t('messages.link') }}</a>
         </div>
-        <div class="card">
-          <a href="https://dayanab01.github.io/MiniMarket/index.html">
-            <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
-          </a>
-          <h1>Store eccomerce</h1>
-          <span>HTML-Bootstrap(Responsive)-css</span>
+          </div>
         </div>
+        <div class="card-container">
+          <div class="card1">
+            <figure class="card-figure">
+          <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Store eccomerce</h2>
+          <p class="card-text">{{ t('messages.cardText3') }}</p>
+          <a href="https://dayanab01.github.io/MiniMarket/index.html"
+          class="card-link">{{ t('messages.link') }}</a>
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="textExperience">
+        <h1>{{ t('messages.experience') }}</h1>
+        <ul>
+          <li>PROSPERCITY  BOOTCAMP 2021-2022 </li>
+          <li>STARTUP ALGORITMO  DESARROLLADORA DE SOFTWARE 2022-2023</li>
+        </ul>
       </div>
     </section>
 
@@ -128,19 +144,49 @@
           <li>{{ t('messages.certificado1') }}</li>
           <li>{{ t('messages.certificado2') }}</li>
           <li>{{ t('messages.certificado3') }}</li>
-          <li>{{ t('messages.certificado4') }}</li>
+          <li>{{ t('messages.platzi1') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi2') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi3') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi4') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi5') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi6') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi7') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi8') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi9') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
+          <li>{{ t('messages.platzi10') }}
+            <img src="../assets/z_images/certificate.png" alt="logo-certificate">
+          </li>
         </ul>
         </div>
       </div>
     </section>
     <footer>
       <div class="box">
+        <h1>{{ t('messages.footerTitle') }}</h1>
         <ul>
-          <a href="https://github.com/DayanaB01">GitHub</a>
+          <li><a href="https://github.com/DayanaB01">GitHub</a></li>
+          <li><a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a></li>
+          <li>dayanabeta08@gmail.com</li>
         </ul>
-        <ul>
-          <a href="www.linkedin.com/in/dayana-betancur-gañán">Linkendin</a>
-        </ul>
+        <span>{{ t('messages.footer') }}</span>
         <span>
           {{ t('messages.footer1') }}🤍
         </span>
