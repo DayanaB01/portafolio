@@ -1,7 +1,7 @@
-# portafolio
-Here you will find about me, my project and my practices
+# Portafolio
+Here you will find about me, my projects, my studies and my practices.
 <pre>
-This project contain: about me, skills, projects and contact.
+This project contain: vue,sass,typescript and more.
 </pre>
 
 <h3>:eye_speech_bubble: Live demo</h3>
