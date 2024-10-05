@@ -104,7 +104,7 @@
         <div class="card-container">
           <div class="card1">
             <figure class="card-figure">
-              <img src="../assets/z_images/Principal.png" alt="preview-forms" />
+              <!-- <img src="../assets/z_images/Principal.png" alt="preview-forms" /> -->
             </figure>
             <div class="card-body">
               <h2 class="card-title">Recetas On</h2>
