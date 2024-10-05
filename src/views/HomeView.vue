@@ -124,7 +124,6 @@
         </div>
       </div>
     </section>
-
     <section>
       <div class="textExperience">
         <h1>{{ t('messages.experience') }}</h1>
@@ -134,7 +133,6 @@
         </ul>
       </div>
     </section>
-
     <section class="practices">
       <div class="text">
         <h1>{{ t('messages.tituloD') }}</h1>
