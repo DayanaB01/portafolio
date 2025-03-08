@@ -1,5 +1,5 @@
 $measure: 600px;
-$background-one: #ffffff;
+$background-one: #D983D5;
 $background-two: #2267fd;
 $color-border: linear-gradient(to right, #2267fd, #9932cc);
 .greeting{
@@ -51,7 +51,8 @@ $color-border: linear-gradient(to right, #2267fd, #9932cc);
 .about{
     display: grid;
     grid-template-columns:repeat(2, 3fr);
-    background: linear-gradient(to bottom right, #2267fd, #b6cdfe);
+    // background: linear-gradient(to bottom right, #2267fd, #b6cdfe);
+    background: #FFC2FF;
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     height: 45rem;
@@ -86,18 +87,17 @@ $color-border: linear-gradient(to right, #2267fd, #9932cc);
     transition:
     width 2s,
     height 2s,
-    background-color 2s,
-    rotate 2s;
+    background-color 2s;
     box-shadow:
-    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-    0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    inset 0 -3em 3em #49004c,
+    0 0 0 2px #49004c,
+    0.3em 0.3em 1em #000067;
     transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .about-img img:hover {
     width: 200px;
     height: 200px;
-    border: 8px solid white;
+    border: 8px solid #49004c;
     rotate: 360deg;
   }
 .project{
@@ -105,7 +105,7 @@ $color-border: linear-gradient(to right, #2267fd, #9932cc);
     height:50rem;
     display: grid;
     grid-template-columns: 1;
-    background: linear-gradient(to top, #ffffff,#89adfb) ;
+    // background: linear-gradient(to top, #ffffff,#89adfb) ;
 }
 .tittle{
     grid-row: 1;
@@ -132,10 +132,13 @@ h1{
 }
 
 .studies{
-    background:rgb(0 46 200 / 79%) ; //radial-gradient(#2267fd, #e4ecff);
+    // background:rgb(0 46 200 / 79%) ; //radial-gradient(#2267fd, #e4ecff);
+    background: #742372;;
     display: grid;
+    gap: 2%;
     grid-template-columns: 1fr 1fr 1fr;
     height: 35rem;
+    padding: 1%;
     .tool{
         width: 25%;
         color: #ffffff;
@@ -153,28 +156,34 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid #89adfb;
+    // border: 1px solid #89adfb;
     //padding: 5%;
     text-align: -webkit-center;
+    background: #B763B4;
+    border-radius: 10px;
 }
   .firstImg{
     grid-column: 1;
     display: flex;
     flex-direction: column;
-    border: 1px solid #89adfb;
+    // border: 1px solid #89adfb;
     justify-content:space-around;
     text-align: -webkit-center;
+    background: #B763B4;
+    border-radius: 10px;
 }
 .secondImg{
     grid-column: 3/3;
     display: flex;
     flex-direction: column;
-    border: 1px solid #89adfb;
+    // border: 1px solid #89adfb;
     justify-content:space-around;
     text-align: -webkit-center;
+    background: #B763B4;
+    border-radius: 10px;
 }
 .practices{
-    background: linear-gradient(to top, #89adfb, #ffffff) ;
+    background: #7d0f7c; ;
     padding: 5%;
     img{
         width: 3%;
@@ -216,8 +225,11 @@ margin: 0;
     }
  }
 }
+.experience{
+        border: 19px solid #38003b;
+}
 .textExperience{
-    background: rgb(0 46 200 / 79%);
+    background: #f589f0;
     display: grid;
     grid-template-rows: repeat(2, 2fr);
     padding: 2%;

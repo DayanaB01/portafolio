@@ -129,7 +129,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="experience">
       <div class="textExperience">
         <h1>{{ t('messages.experience') }}</h1>
         <ul>
