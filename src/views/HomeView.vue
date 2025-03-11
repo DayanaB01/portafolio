@@ -15,8 +15,10 @@
         <img src="../assets/z_images/perfil.png" alt="foto" />
       </div>
       <div class="about-me">
-        <h1>{{ t('messages.tituloA') }}</h1>
-        <p>{{ t('messages.perfil') }}</p>
+        <div class="textMe">
+          <h1>{{ t('messages.tituloA') }}</h1>
+          <p>{{ t('messages.perfil') }}</p>
+        </div>
       </div>
     </section>
     <!--COMIENZO DE SECCION-->
