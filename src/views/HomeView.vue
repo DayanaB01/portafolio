@@ -42,9 +42,6 @@
           <li class="tool">JavaScript
             <img src="../assets/z_images/JavaScript-Logo.png" alt="logo-javascript" />
           </li>
-          <li class="tool">Vue
-            <img src="../assets/z_images/vue-logo.png" alt="vvue-logo" />
-          </li>
           <li class="tool">Angular
             <img src="../assets/z_images/angular-logo.png" alt="angular-logo" />
           </li>
@@ -69,14 +66,8 @@
           <li class="tool">.net
             <img src="../assets/z_images/website.png" alt="logo-net">
           </li>
-          <li class="tool">php
-            <img src="../assets/z_images/php.png" alt="logo-php">
-          </li>
           <li class="tool">C++
             <img src="../assets/z_images/c-.png" alt="logo.png">
-          </li>
-          <li class="tool">SQL
-            <img src="../assets/z_images/sql-logo.png" alt="sql-logo" />
           </li>
         </ul>
         <!--  -->
@@ -85,13 +76,36 @@
     <!--FIN DE SECCION-->
     <section class="project">
       <div class="tittle">
-        <h1>{{ t('messages.tituloB') }}</h1>
+        <div class="boxtext">
+          <h1>{{ t('messages.tituloB') }}</h1>
         <p>{{ t('messages.descripcionLink') }}
           <a href="https://github.com/DayanaB01?tab=repositories">{{ t('messages.linkProyectos') }}</a>
         </p>
+        </div>
       </div>
       <div class="cards">
-        <div class="card-container">
+        <div class="projectOne">
+          <h2 class="card-title">Recetas On</h2>
+          <p class="card-text">{{ t('messages.cardText2') }} </p>
+          <figure class="card-figure">
+              <img src="@/assets/z_images/principal.png" alt="preview-forms" />
+            </figure>
+          <a href="https://github.com/DayanaB01/RecetasOn" class="card-link">{{ t('messages.link') }}</a>
+        </div>
+        <div class="projectOne">
+          <h2 class="card-title">Portafolio</h2>
+          <p>Encuentras desde mis inicios como desarrolladora y algunos proyectos en ejecución</p>
+          <a href=" https://github.com/DayanaB01?tab=repositories" class="card-link">{{ t('messages.link') }}</a>
+        </div>
+        <div class="projectOne">
+          <h2 class="card-title">Market</h2>
+          <p class="card-text">{{ t('messages.cardText3') }}</p>
+          <figure class="card-figure">
+              <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
+            </figure>
+            <a href="https://dayanab01.github.io/MiniMarket/index.html" class="card-link">{{ t('messages.link') }}</a>
+        </div>
+        <!-- <div class="card-container">
           <div class="card1">
             <figure class="card-figure">
               <img src="@/assets/z_images/forms.png" alt="photo-form" />
@@ -126,7 +140,7 @@
               <a href="https://dayanab01.github.io/MiniMarket/index.html" class="card-link">{{ t('messages.link') }}</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="experience">

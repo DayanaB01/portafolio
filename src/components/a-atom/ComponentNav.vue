@@ -1,8 +1,9 @@
 <template>
     <nav>
       <div class="routers">
-        <router-link to="/">Home</router-link>
-        <a href="#box">Contact</a>
+        <h5>Mi portafolio</h5>
+        <!-- <router-link to="/">Home</router-link> -->
+        <!-- <a href="#box">Contact</a> -->
         <!-- <router-link to="/ComponentForm">Contact</router-link> -->
       </div>
       <div class="botones">

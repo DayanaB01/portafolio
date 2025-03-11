@@ -11,13 +11,15 @@ footer{
     flex-direction: column;
     span{
         color: #000000;
-        text-shadow: 3px 0px 0px #9932cc, 0px 3px 0px #2267fd, -3px 0px 0px #2267fd, 0px -4px 0px #9932cc;
+        text-shadow: 2px 0px 0px #9932cc, 0px 2px 0px #006eff, -2px 0px 0px #2267fd, 0px -3px 0px #9932cc;
     }
     a{
         color: #000000;
         text-decoration-line: underline;
+        text-shadow: 2px 0px 0px #9932cc, 0px 2px 0px #006eff, -2px 0px 0px #2267fd, 0px -3px 0px #9932cc;
     }
     ul li{
         list-style: none;
+        text-shadow: 2px 0px 0px #9932cc, 0px 2px 0px #006eff, -2px 0px 0px #2267fd, 0px -3px 0px #9932cc;
     }
 }
