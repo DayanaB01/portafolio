@@ -88,11 +88,17 @@
       <div class="cards">
         <div class="projectOne">
           <h2 class="card-title">Recetas On</h2>
-          <p class="card-text">{{ t('messages.cardText2') }} </p>
           <figure class="card-figure">
               <img src="@/assets/z_images/principal.png" alt="preview-forms" />
-            </figure>
-          <a href="https://github.com/DayanaB01/RecetasOn" class="card-link">{{ t('messages.link') }}</a>
+          </figure>
+          <div class="card-text">
+            <h4>Diseño: </h4>
+            {{ t('messages.cardText2') }} <a href="https://www.figma.com/design/2t87LDIrijIxX6no1GsUEK/Untitled?node-id=0-1&t=e0vManvdKFWHzw4J-1">🔗</a>
+            <h4>Front end:</h4>
+             {{ t('messages.cardText21') }} <a href="https://github.com/DayanaB01/RecetasOn" class="card-link">🔗</a>
+             <h4>Back end:</h4>
+             {{ t('messages.cardText22') }}
+          </div>
         </div>
         <div class="projectOne">
           <h2 class="card-title">Portafolio</h2>
@@ -101,56 +107,54 @@
         </div>
         <div class="projectOne">
           <h2 class="card-title">Market</h2>
-          <p class="card-text">{{ t('messages.cardText3') }}</p>
           <figure class="card-figure">
               <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
-            </figure>
-            <a href="https://dayanab01.github.io/MiniMarket/index.html" class="card-link">{{ t('messages.link') }}</a>
-        </div>
-        <!-- <div class="card-container">
-          <div class="card1">
-            <figure class="card-figure">
-              <img src="@/assets/z_images/forms.png" alt="photo-form" />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title">Lavanderia</h2>
-              <p class="card-text">{{ t('messages.cardText1') }}</p>
-              <a href="https://github.com/DayanaB01/Lava_Autos/tree/main" class="card-link">{{ t('messages.link') }}</a>
-            </div>
+          </figure>
+          <div class="card-text">
+            <h4>Front end: </h4>
+            {{ t('messages.cardText3') }} <a href="https://dayanab01.github.io/MiniMarket/index.html" class="card-link">🔗 </a>
           </div>
         </div>
-        <div class="card-container">
-          <div class="card1">
-            <figure class="card-figure">
-              <img src="@/assets/z_images/principal.png" alt="preview-forms" />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title">Recetas On</h2>
-              <p class="card-text">{{ t('messages.cardText2') }} </p>
-              <a href="https://github.com/DayanaB01/RecetasOn" class="card-link">{{ t('messages.link') }}</a>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div class="card1">
-            <figure class="card-figure">
-              <img src="@/assets/z_images/mini-market.png" alt="preview-mini-market" />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title">Store eccomerce</h2>
-              <p class="card-text">{{ t('messages.cardText3') }}</p>
-              <a href="https://dayanab01.github.io/MiniMarket/index.html" class="card-link">{{ t('messages.link') }}</a>
-            </div>
-          </div>
-        </div> -->
       </div>
     </section>
     <section class="experience">
       <div class="textExperience">
         <h1>{{ t('messages.experience') }}</h1>
+        <h4>Empresarial</h4>
         <ul>
           <li>PROSPERCITY BOOTCAMP 2021-2022 </li>
           <li>STARTUP ALGORITMO DESARROLLADORA DE SOFTWARE 2022-2023</li>
+        </ul>
+        <h4>Lenguajes de programación</h4>
+        <ul>
+          <li>JavaScript (4 años)</li>
+          <li>Typescript (1 año)</li>
+          <li>HTML & CSS (5 años)</li>
+        </ul>
+        <h4>Frameworks & Librerias</h4>
+        <ul>
+          <li>Angular (3 años)</li>
+          <li>React native (1 año)</li>
+          <li>Bootstrap (3 años)</li>
+          <li>Sass (1 año)</li>
+          <li>Vue (1 año)</li>
+        </ul>
+        <h4>Base de datos</h4>
+        <ul>
+          <li>SQL (4 años)</li>
+          <li>PostgreSQL  (4 años)</li>
+        </ul>
+        <h4>Herramientas y tecnologias</h4>
+        <ul>
+          <li>Git & Github (4 años)</li>
+          <li>Node js (4 años)</li>
+          <li>JQuery (8 meses)</li>
+          <li>Figma (1 año)</li>
+        </ul>
+        <h4>Sistemas Operativos</h4>
+        <ul>
+          <li>Windows 8, 10, 11 (+ 10 años)</li>
+          <li>Ubuntu (5 meses)</li>
         </ul>
       </div>
     </section>

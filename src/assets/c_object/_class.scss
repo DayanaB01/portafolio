@@ -111,18 +111,23 @@ $color-border: linear-gradient(to right, #2267fd, #9932cc);
   }
 .project{
     background: #FFC2FF;
-    height:50rem;
     display: grid;
-    grid-template-columns: 1;
-    // background: linear-gradient(to top, #ffffff,#89adfb) ;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: minmax(200px, auto);
 }
 .tittle{
     display: flex;
     justify-content: center;
     font-weight: bold;
-    p{
-        margin-top: 1%;
-    }
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    grid-row: 2 / 5;
+    padding: 2%;
 }
 .boxtext{
     background: #D983D5;
@@ -137,7 +142,7 @@ $color-border: linear-gradient(to right, #2267fd, #9932cc);
 }
 .projectOne{
     width: 20%;
-    height: 450px;
+    padding: 1%;
     background: #D983D5;
     border-radius: 20px;
     border: 4px solid #7d0f7c;
@@ -147,14 +152,17 @@ $color-border: linear-gradient(to right, #2267fd, #9932cc);
     align-content: space-around;
     justify-content: center;
 }
-.cards{
-    display: flex;
-    justify-content: space-around;
-    background: transparent;
-}
+
 h1{
     color: #000000;
     text-shadow: 2px 0px 0px #9932cc, 0px 2px 0px #006eff, -2px 0px 0px #2267fd, 0px -3px 0px #9932cc;
+}
+.card-text{
+    font-size: medium;
+    text-align: justify;
+    a{
+        text-decoration: none;
+    }
 }
 
 .studies{
@@ -252,6 +260,10 @@ margin: 0;
 .experience{
     background: #b763b4;
     border: 10px double #b763b4;
+    h4{
+        color: #D983D5;
+        font-weight: 700;
+    }
 }
 .textExperience{
     background: #742372;
