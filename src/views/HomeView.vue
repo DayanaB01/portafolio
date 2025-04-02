@@ -95,15 +95,15 @@
             <h4>Diseño: </h4>
             {{ t('messages.cardText2') }} <a href="https://www.figma.com/design/2t87LDIrijIxX6no1GsUEK/Untitled?node-id=0-1&t=e0vManvdKFWHzw4J-1">🔗</a>
             <h4>Front end:</h4>
-             {{ t('messages.cardText21') }} <a href="https://github.com/DayanaB01/RecetasOn" class="card-link">🔗</a>
+             {{ t('messages.cardText21') }} <a href="https://dayanab01.github.io/RecetasOn/" class="card-link">🔗</a>
              <h4>Back end:</h4>
              {{ t('messages.cardText22') }}
           </div>
         </div>
         <div class="projectOne">
-          <h2 class="card-title">Portafolio</h2>
-          <p>Encuentras desde mis inicios como desarrolladora y algunos proyectos en ejecución</p>
-          <a href=" https://github.com/DayanaB01?tab=repositories" class="card-link">{{ t('messages.link') }}</a>
+          <h2 class="card-title">Blog musical</h2>
+          <p>Frontend</p>
+          <a href="https://dayanab01.github.io/musicalWeb/" class="card-link">{{ t('messages.link') }}</a>
         </div>
         <div class="projectOne">
           <h2 class="card-title">Market</h2>
@@ -112,7 +112,7 @@
           </figure>
           <div class="card-text">
             <h4>Front end: </h4>
-            {{ t('messages.cardText3') }} <a href="https://dayanab01.github.io/MiniMarket/index.html" class="card-link">🔗 </a>
+            {{ t('messages.cardText3') }} <a href="https://dayanab01.github.io/MiniMarket/" class="card-link">🔗 </a>
           </div>
         </div>
       </div>
