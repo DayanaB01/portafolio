@@ -102,8 +102,13 @@
         </div>
         <div class="projectOne">
           <h2 class="card-title">Blog musical</h2>
-          <p>Frontend</p>
-          <a href="https://dayanab01.github.io/musicalWeb/" class="card-link">{{ t('messages.link') }}</a>
+          <figure class="card-figure">
+              <img src="@/assets/z_images/blog.png" alt="preview-mini-market" />
+          </figure>
+          <div class="card-text">
+            <h4>Front end: </h4>
+            Ver página  <a href="https://dayanab01.github.io/musicalWeb/" class="card-link">🔗 </a>
+          </div>
         </div>
         <div class="projectOne">
           <h2 class="card-title">Market</h2>
