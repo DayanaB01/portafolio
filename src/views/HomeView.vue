@@ -103,11 +103,13 @@
         <div class="projectOne">
           <h2 class="card-title">Blog musical</h2>
           <figure class="card-figure">
-              <img src="@/assets/z_images/blog.png" alt="preview-mini-market" />
+             <img src="@/assets/z_images/blog.png" alt="preview-mini-market" />
           </figure>
           <div class="card-text">
+            <h4>Diseño:</h4>
+            {{ t('messages.cardText12') }} <a href="https://www.figma.com/design/9fLA4AtjuldR76zsOuoCFm/Untitled?node-id=0-1&t=FfxzhP0Y2xDU5KH3-1">🔗</a>
             <h4>Front end: </h4>
-            Ver página  <a href="https://dayanab01.github.io/musicalWeb/" class="card-link">🔗 </a>
+            {{ t('messages.cardText1') }}<a href="https://dayanab01.github.io/musicalWeb/" class="card-link">🔗 </a>
           </div>
         </div>
         <div class="projectOne">
